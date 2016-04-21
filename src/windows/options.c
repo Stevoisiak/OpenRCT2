@@ -197,24 +197,24 @@ static rct_widget window_options_display_widgets[] = {
 	{ WWT_DROPDOWN,			1,	155,	299,	68,		79,		871,					STR_NONE },					// fullscreen
 	{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	69,		78,		STR_DROPDOWN_GLYPH,		STR_NONE },
 
-		{ WWT_DROPDOWN,			1,	155,	299,	83,		94,		STR_RESOLUTION_X_BY_Y,	STR_NONE },					// resolution
+		{ WWT_DROPDOWN,			1,	155,	299,	83,		94,		STR_RESOLUTION_X_BY_Y,	STR_NONE },				// resolution
 		{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	84,		93,		STR_DROPDOWN_GLYPH,		STR_NONE },
 
-	{ WWT_SPINNER,			1,	155,	299,	98,		109,	STR_NONE,				STR_NONE },					// scale spinner
+	{ WWT_SPINNER,			1,	155,	299,	98,		109,	STR_NONE,				STR_WINDOW_SCALE_TIP },		// scale spinner
 	{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	99,		103,	STR_NUMERIC_UP,			STR_NONE },					// scale spinner up
 	{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	104,	108,	STR_NUMERIC_DOWN,		STR_NONE },					// scale spinner down
 
-	{ WWT_CHECKBOX,			1,	10,		290,	113,	124,	STR_HARDWARE_DISPLAY,	STR_NONE },					// hardware display
+	{ WWT_CHECKBOX,			1,	10,		290,	113,	124,	STR_HARDWARE_DISPLAY,	STR_HARDWARE_DISPLAY_TIP },	// hardware display
 
-		{ WWT_DROPDOWN,			1,	155,	299,	128,	139,	STR_NONE,				STR_REQUIRES_HW_DISPLAY },	// scaling quality hint
-		{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	129,	138,	STR_DROPDOWN_GLYPH,		STR_REQUIRES_HW_DISPLAY_TIP },
-		{ WWT_CHECKBOX,			1,	25,		290,	143,	154,	STR_USE_NN_AT_INTEGER_SCALE,	STR_REQUIRES_HW_DISPLAY_TIP },	// use nn scaling at integer scales
+		{ WWT_DROPDOWN,			1,	155,	299,	128,	139,	STR_NONE,				STR_NONE },								// scaling quality hint
+		{ WWT_DROPDOWN_BUTTON,	1,	288,	298,	129,	138,	STR_DROPDOWN_GLYPH,		STR_SCALE_QUALITY_TIP },
+		{ WWT_CHECKBOX,			1,	25,		290,	143,	154,	STR_USE_NN_AT_INTEGER_SCALE,	STR_USE_NN_AT_INTEGER_SCALE_TIP },	// use nn scaling at integer scales
 
-		{ WWT_CHECKBOX,			1,	25,		290,	158,	169,	STR_STEAM_OVERLAY_PAUSE,	STR_NONE },				// pause on steam overlay
+		{ WWT_CHECKBOX,			1,	25,		290,	158,	169,	STR_STEAM_OVERLAY_PAUSE,	STR_STEAM_OVERLAY_PAUSE_TIP },		// pause on steam overlay
 
-	{ WWT_CHECKBOX,			1,	10,		290,	174,	185,	STR_UNCAP_FPS,			STR_NONE },					// uncap fps
-	{ WWT_CHECKBOX,			1,	155,	299,	174,	185,	STR_SHOW_FPS,			STR_NONE },					// show fps
-	{ WWT_CHECKBOX,			1,	10,		290,	189,	200,	STR_MININISE_FULL_SCREEN_ON_FOCUS_LOSS,	STR_NONE },	// minimise fullscreen focus loss
+	{ WWT_CHECKBOX,			1,	10,		290,	174,	185,	STR_UNCAP_FPS,			STR_UNCAP_FPS_TIP },		// uncap fps
+	{ WWT_CHECKBOX,			1,	155,	299,	174,	185,	STR_SHOW_FPS,			STR_SHOW_FPS_TIP },			// show fps
+	{ WWT_CHECKBOX,			1,	10,		290,	189,	200,	STR_MININISE_FULLSCREEN_ON_FOCUS_LOSS,	STR_MINIMIZE_FULLSCREEN_ON_FOCUS_LOSS_TIP },	// minimise fullscreen focus loss
 
 
 	{ WIDGETS_END },

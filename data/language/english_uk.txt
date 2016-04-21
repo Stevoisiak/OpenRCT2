@@ -4110,7 +4110,14 @@ STR_5801    :Disable littering
 STR_5802    :{SMALLFONT}{BLACK}Stops guests from littering and vomiting
 STR_5803    :{SMALLFONT}{BLACK}Rotate selected map element
 STR_5804    :Mute sound
-
+STR_5805    :{SMALLFONT}{BLACK}Use GPU for graphics instead of the CPU
+STR_5806    :{SMALLFONT}{BLACK}Disables FPS limit. Default limit is 40 FPS
+STR_5807    :{SMALLFONT}{BLACK}Display FPS counter in-game
+STR_5808    :{SMALLFONT}{BLACK}Sets ratio to scale the game by.{NEWLINE}Most useful when playing in high resolutions
+STR_5809    :{SMALLFONT}{BLACK}[Requires hardware scaling]{NEWLINE}Sets UI scaling type
+STR_5810    :{SMALLFONT}{BLACK}[Requires hardware scaling]{NEWLINE}Use nearest neighbour scaling{NEWLINE}at integer scales
+STR_5811    :{SMALLFONT}{BLACK}[Requires hardware scaling]{NEWLINE}Pause the game if Steam{NEWLINE}in-game overlay is opened
+STR_5812    :{SMALLFONT}{BLACK}Minimize the game if focus{NEWLINE}is lost while in fullscreen mode
 
 #############
 # Scenarios #
